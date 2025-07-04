@@ -52,7 +52,7 @@ const skillCategories = [
     icon: Layers,
     color: "text-purple-500",
     skills: [
-      { name: "C / Java (Core)", level: 75 },
+      { name: "C / Java (Core)", level: 95 },
       { name: "Responsive Design", level: 90 },
       { name: "Browser Compatibility", level: 85 },
       { name: "Design Tools (Figma, Canva)", level: 80 },

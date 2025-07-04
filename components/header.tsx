@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button"
 import { ThemeToggle } from "@/components/theme-toggle"
 import React from "react"
 import { cn } from "@/lib/utils"
-
+import { AudioToggle } from "@/components/audio-toggle"
 const menuItems = [
   { name: "About", href: "#about" },
   { name: "Skills", href: "#skills" },
@@ -61,6 +61,7 @@ export const HeroHeader = () => {
 
             {/* Desktop Actions */}
             <div className="hidden lg:flex items-center space-x-3">
+              <AudioToggle />
               <ThemeToggle />
 
               <Button asChild size="sm" className={cn(isScrolled ? "inline-flex" : "hidden")}>
@@ -70,6 +71,7 @@ export const HeroHeader = () => {
 
             {/* Mobile Actions */}
             <div className="flex items-center space-x-2 lg:hidden">
+              <AudioToggle />
               <ThemeToggle />
               <button
                 onClick={() => setMenuState(!menuState)}
