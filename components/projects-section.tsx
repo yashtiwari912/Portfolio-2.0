@@ -16,6 +16,35 @@ if (typeof window !== "undefined") {
 const projects = [
   {
     id: 1,
+    title: "MyAiTools",
+    description: "MyAiTools is a one-stop SaaS platform with 12+ AI tools for content generation, image processing, and productivity. Built with the PERN stack and TailwindCSS, it supports AI image generation, OCR, YouTube summarization with chat, background/object removal, image compression & resizing, resume review, QR code generation, and more.",
+    image: "/myaitools.png",
+    tech: [
+      "PostgreSQL",
+      "Neondb",
+      "Express.js",
+      "React",
+      "Node.js",
+      "TypeScript",
+      "Cloudinary",
+      "Sharp",
+      "Tesseract.js",
+      "Clerk",
+      "Hugging Face FLUX.1-schnell",
+      "Tailwind CSS",
+      "Axios",
+      "Framer Motion",
+      "OpenAI API"
+    ],
+    demoUrl: "https://my-ai-tools-seven.vercel.app",
+    githubUrl: "https://github.com/yashtiwari912/MyAiTools",
+    featured: false,
+    gradient: "from-pink-500/20 to-blue-500/20",
+    showDemo: true,
+    showCode: true
+  }
+  , {
+    id: 2,
     title: "QuizJec",
     description: "QuizJec is a secure desktop exam simulator built with ElectronJS, React, Node.js, and C++. It offers real-time scoring, question navigation, system-level restrictions, and separate teacher-student portals. Designed for institutes like JEC with full offline support and anti-cheating measures.",
     image: "/quizjec.png",
@@ -44,7 +73,7 @@ const projects = [
 
   ,
   {
-    id: 2,
+    id: 3,
     title: "Prescripto",
     description:
       "An intelligent healthcare web app for doctors to generate digital prescriptions with real-time patient management and dynamic medicine suggestions.",
@@ -58,7 +87,7 @@ const projects = [
     showCode: true,
   },
   {
-    id: 3,
+    id: 4,
     title: "TravelCare",
     description:
       "A travel and tourism management app providing safe route guidance, SOS features, live location sharing, and itinerary planning for solo travelers.",
@@ -72,7 +101,7 @@ const projects = [
     showCode: true,
   },
   {
-    id: 4,
+    id: 5,
     title: "GitFind",
     description:
       "A minimal GitHub user search tool built with clean UI and seamless GitHub API integration. Provides insights into user repositories and contributions.",
@@ -86,7 +115,7 @@ const projects = [
     showCode: true,
   },
   {
-    id: 5,
+    id: 6,
     title: "Previous Portfolio",
     description:
       "My earlier developer portfolio showcasing my frontend skills and early full-stack projects. Built with basic routing and animations.",
@@ -100,7 +129,7 @@ const projects = [
     showCode: false,
   },
   {
-    id: 6,
+    id: 7,
     title: "Movie Recommendation System",
     description:
       "A collaborative filtering-based recommendation engine using cosine similarity to suggest movies based on user preferences.",
@@ -114,7 +143,7 @@ const projects = [
     showCode: true,
   },
   {
-    id: 7,
+    id: 8,
     title: "ChatOn (Android)",
     description:
       "A real-time chat application with user authentication, Firebase Realtime Database support, and a clean Android UI.",
@@ -128,7 +157,7 @@ const projects = [
     showCode: true,
   },
   {
-    id: 8,
+    id: 9,
     title: "StockWalls (Android)",
     description:
       "A beautiful stock wallpaper browsing app using the Pexels API with smooth image rendering and download functionality.",
@@ -142,7 +171,7 @@ const projects = [
     showCode: true,
   },
   {
-    id: 9,
+    id: 10,
     title: "News App (Android)",
     description:
       "A modern Android app that displays tech news using WebView. Features custom in-app browsing and category filtering.",
@@ -156,7 +185,7 @@ const projects = [
     showCode: true,
   },
   {
-    id: 10,
+    id: 11,
     title: "iMusic Player (Android)",
     description:
       "A sleek offline music player app built for Android with audio controls, playlists, and shuffle modes.",

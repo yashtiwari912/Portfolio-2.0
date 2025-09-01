@@ -80,7 +80,7 @@ const education = [
     description:
       "Currently pursuing B.Tech with strong focus on backend development, full-stack projects, and system-level engineering.",
     achievements: [
-      "Current CGPA: 7.8",
+      "Current CGPA: 7.87",
       "Core Member, GDSC",
       "Built 10+ Projects",
       "Hackathon Participant",
