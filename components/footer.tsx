@@ -34,6 +34,23 @@ export default function FooterSection() {
                     </div>
                     <div className="my-8 flex flex-wrap justify-center gap-6 text-sm">
                         <Link
+                            href="https://github.com/yashtiwari912"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            aria-label="GitHub"
+                            className="text-muted-foreground hover:text-primary block">
+                            <svg
+                                className="size-6"
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="1em"
+                                height="1em"
+                                viewBox="0 0 24 24">
+                                <path
+                                    fill="currentColor"
+                                    d="M12 2a10 10 0 0 0-3.162 19.493c.5.092.683-.217.683-.483c0-.237-.008-.868-.013-1.703c-2.782.604-3.369-1.342-3.369-1.342c-.454-1.152-1.11-1.459-1.11-1.459c-.908-.62.069-.607.069-.607c1.004.07 1.532 1.032 1.532 1.032c.892 1.529 2.341 1.088 2.91.832c.092-.647.35-1.088.636-1.338c-2.22-.253-4.555-1.11-4.555-4.942c0-1.091.39-1.984 1.029-2.682c-.103-.253-.446-1.272.098-2.65c0 0 .84-.27 2.75 1.026a9.564 9.564 0 0 1 2.5-.336a9.56 9.56 0 0 1 2.5.336c1.91-1.296 2.748-1.026 2.748-1.026c.546 1.378.202 2.397.1 2.65c.64.698 1.027 1.591 1.027 2.682c0 3.842-2.338 4.687-4.566 4.936c.36.309.682.92.682 1.852c0 1.337-.012 2.419-.012 2.747c0 .268.18.58.688.481A10 10 0 0 0 12 2" />
+                            </svg>
+                        </Link>
+                        <Link
                             href="https://x.com/Yash_Tiwari912"
                             target="_blank"
                             rel="noopener noreferrer"
