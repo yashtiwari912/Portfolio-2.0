@@ -6,10 +6,14 @@ import ProjectsSection from "@/components/projects-section"
 import Testimonials from "@/components/testimonials"
 import CallToAction from "@/components/call-to-action"
 import FooterSection from "@/components/footer"
+import SplashCursor from '@/components/SplashCursor'
+
+
 
 export default function Home() {
   return (
     <div className="min-h-screen">
+      <SplashCursor />
       <HeroSection />
       <AboutSection />
       <SkillsSection />
